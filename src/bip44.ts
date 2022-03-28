@@ -12,7 +12,7 @@ import { isValidXpub, isValidXprv } from './helpers'
 
 const ec = new EC('secp256k1')
 
-export const derivationPath = "m/44'/195'/0'"
+export const derivationPath = "m/44'/60'/0'"
 const derivationPathParts = derivationPath.split('/').slice(1)
 
 type HDKey<K> = {
