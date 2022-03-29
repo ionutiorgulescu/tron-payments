@@ -508,7 +508,7 @@ function decode58(s) {
 }
 
 const ec$1 = new ec('secp256k1');
-const derivationPath = "m/44'/195'/0'";
+const derivationPath = "m/44'/60'/0'";
 const derivationPathParts = derivationPath.split('/').slice(1);
 function deriveAddress(xpub, index) {
     if (!isValidXpub(xpub)) {
